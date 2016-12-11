@@ -1,0 +1,14 @@
+E:\Git\HttpResponse\HttpResponse\bin\HttpResponse.dll.config
+E:\Git\HttpResponse\HttpResponse\bin\HttpResponse.dll
+E:\Git\HttpResponse\HttpResponse\bin\HttpResponse.pdb
+E:\Git\HttpResponse\HttpResponse\bin\Newtonsoft.Json.dll
+E:\Git\HttpResponse\HttpResponse\bin\System.Net.Http.Formatting.dll
+E:\Git\HttpResponse\HttpResponse\bin\System.Web.Http.dll
+E:\Git\HttpResponse\HttpResponse\bin\System.Web.Http.WebHost.dll
+E:\Git\HttpResponse\HttpResponse\bin\Newtonsoft.Json.xml
+E:\Git\HttpResponse\HttpResponse\bin\System.Net.Http.Formatting.xml
+E:\Git\HttpResponse\HttpResponse\bin\System.Web.Http.xml
+E:\Git\HttpResponse\HttpResponse\bin\System.Web.Http.WebHost.xml
+E:\Git\HttpResponse\HttpResponse\obj\Debug\HttpResponse.csprojResolveAssemblyReference.cache
+E:\Git\HttpResponse\HttpResponse\obj\Debug\HttpResponse.dll
+E:\Git\HttpResponse\HttpResponse\obj\Debug\HttpResponse.pdb
