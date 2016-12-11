@@ -11,10 +11,31 @@ namespace HttpResponse.Controllers
         // GET: api/HttpRecorder
         public string Get()
         {
-            return GetClientIp();
+            var ip = GetClientIPAddress();
+            if (string.IsNullOrEmpty(ip))
+            {
+                ip = GetClientIp2();
+            }
+            return ip;
         }
 
-        private string GetClientIp(HttpRequestMessage request = null)
+        public static string GetClientIPAddress()
+        {
+            var context = System.Web.HttpContext.Current;
+            var sIPAddress = context.Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
+            if (string.IsNullOrEmpty(sIPAddress))
+            {
+                return context.Request.ServerVariables["REMOTE_ADDR"];
+            }
+            else
+            {
+                var ipArray = sIPAddress.Split(new char[] { ',' });
+                return ipArray[0];
+            }
+        }
+
+
+        private string GetClientIp2(HttpRequestMessage request = null)
         {
             request = request ?? Request;
 
